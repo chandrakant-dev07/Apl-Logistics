@@ -1,0 +1,422 @@
+{
+  "data_path": "C:\\Users\\Admin\\Downloads\\Supply 2 project\\apl_logistics_feature_engineered.csv.gz",
+  "dataset_shape": [
+    180519,
+    54
+  ],
+  "split_sizes": {
+    "train": 126363,
+    "validation": 27078,
+    "test": 27078
+  },
+  "target_rates": {
+    "train": 0.5482854949629242,
+    "validation": 0.5483048969643253,
+    "test": 0.5483048969643253
+  },
+  "baseline_accuracy_test": 0.5483048969643253,
+  "selected_threshold": 0.30499999999999994,
+  "validation_f1_at_selected_threshold": 0.7282166479470858,
+  "metrics": {
+    "Validation @ 0.50": {
+      "threshold": 0.5,
+      "accuracy": 0.712497230223798,
+      "precision": 0.8884488448844885,
+      "recall": 0.5439482723782583,
+      "specificity": 0.9170959038508707,
+      "f1": 0.6747712745958141,
+      "roc_auc": 0.7738455093726099,
+      "average_precision": 0.839845987994934,
+      "log_loss": 0.5198385086411741,
+      "confusion_matrix": {
+        "true_negative": 11217,
+        "false_positive": 1014,
+        "false_negative": 6771,
+        "true_positive": 8076
+      }
+    },
+    "Validation @ 0.30": {
+      "threshold": 0.30499999999999994,
+      "accuracy": 0.5978654258069281,
+      "precision": 0.578475691966056,
+      "recall": 0.9825553983969826,
+      "specificity": 0.13089690131632736,
+      "f1": 0.7282166479470858,
+      "roc_auc": 0.7738455093726099,
+      "average_precision": 0.839845987994934,
+      "log_loss": 0.5198385086411741,
+      "confusion_matrix": {
+        "true_negative": 1601,
+        "false_positive": 10630,
+        "false_negative": 259,
+        "true_positive": 14588
+      }
+    },
+    "Test @ 0.50": {
+      "threshold": 0.5,
+      "accuracy": 0.7105768520570205,
+      "precision": 0.8862684593343619,
+      "recall": 0.5416582474573988,
+      "specificity": 0.9156242335050282,
+      "f1": 0.6723799172275406,
+      "roc_auc": 0.7705154260977298,
+      "average_precision": 0.8370446236391145,
+      "log_loss": 0.5218123508269275,
+      "confusion_matrix": {
+        "true_negative": 11199,
+        "false_positive": 1032,
+        "false_negative": 6805,
+        "true_positive": 8042
+      }
+    },
+    "Test @ 0.30": {
+      "threshold": 0.30499999999999994,
+      "accuracy": 0.5990841273358446,
+      "precision": 0.5793218587271932,
+      "recall": 0.9816124469589816,
+      "specificity": 0.13473959610824954,
+      "f1": 0.7286271372862714,
+      "roc_auc": 0.7705154260977298,
+      "average_precision": 0.8370446236391145,
+      "log_loss": 0.5218123508269275,
+      "confusion_matrix": {
+        "true_negative": 1648,
+        "false_positive": 10583,
+        "false_negative": 273,
+        "true_positive": 14574
+      }
+    }
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_log_loss": 0.5587332257179265,
+      "validation_log_loss": 0.556827430213955
+    },
+    {
+      "epoch": 2,
+      "train_log_loss": 0.5478097229927458,
+      "validation_log_loss": 0.545483863862789
+    },
+    {
+      "epoch": 3,
+      "train_log_loss": 0.5362055330244418,
+      "validation_log_loss": 0.5342715559582308
+    },
+    {
+      "epoch": 4,
+      "train_log_loss": 0.5331066974468863,
+      "validation_log_loss": 0.5308144609639546
+    },
+    {
+      "epoch": 5,
+      "train_log_loss": 0.5304274147918173,
+      "validation_log_loss": 0.5283290702487525
+    },
+    {
+      "epoch": 6,
+      "train_log_loss": 0.5290008667691892,
+      "validation_log_loss": 0.5274704899993838
+    },
+    {
+      "epoch": 7,
+      "train_log_loss": 0.5277460095101123,
+      "validation_log_loss": 0.5264657345709353
+    },
+    {
+      "epoch": 8,
+      "train_log_loss": 0.5253431705935591,
+      "validation_log_loss": 0.5245169829943762
+    },
+    {
+      "epoch": 9,
+      "train_log_loss": 0.5270296329770062,
+      "validation_log_loss": 0.5247546236040526
+    },
+    {
+      "epoch": 10,
+      "train_log_loss": 0.5243075884315923,
+      "validation_log_loss": 0.5228243894772022
+    },
+    {
+      "epoch": 11,
+      "train_log_loss": 0.5225646058653804,
+      "validation_log_loss": 0.5206654196044136
+    },
+    {
+      "epoch": 12,
+      "train_log_loss": 0.522822626449902,
+      "validation_log_loss": 0.5211098092262563
+    },
+    {
+      "epoch": 13,
+      "train_log_loss": 0.5199959277125769,
+      "validation_log_loss": 0.5177720137250301
+    },
+    {
+      "epoch": 14,
+      "train_log_loss": 0.5214802691368671,
+      "validation_log_loss": 0.5194912037646532
+    },
+    {
+      "epoch": 15,
+      "train_log_loss": 0.5209823245073005,
+      "validation_log_loss": 0.5194342486100307
+    },
+    {
+      "epoch": 16,
+      "train_log_loss": 0.5221489890614776,
+      "validation_log_loss": 0.5207786623628848
+    },
+    {
+      "epoch": 17,
+      "train_log_loss": 0.5206106365410934,
+      "validation_log_loss": 0.5192601613545694
+    },
+    {
+      "epoch": 18,
+      "train_log_loss": 0.5219031950683276,
+      "validation_log_loss": 0.5198385086411741
+    }
+  ],
+  "preprocessing": {
+    "numeric_columns": [
+      "days_for_shipment_scheduled",
+      "benefit_per_order",
+      "sales_per_customer",
+      "latitude",
+      "longitude",
+      "order_item_discount",
+      "order_item_discount_rate",
+      "order_item_product_price",
+      "order_item_profit_ratio",
+      "order_item_quantity",
+      "sales",
+      "scheduled_shipping_pressure_index",
+      "scheduled_zero_day_flag",
+      "scheduled_short_window_flag",
+      "same_day_shipping_flag",
+      "first_class_shipping_flag",
+      "second_class_shipping_flag",
+      "standard_class_shipping_flag",
+      "express_shipping_flag",
+      "shipping_mode_priority_rank",
+      "gross_sales_per_unit",
+      "net_sales_per_unit",
+      "discount_amount_per_unit",
+      "profit_per_unit",
+      "loss_order_flag",
+      "high_discount_flag",
+      "high_value_order_flag",
+      "market_order_share",
+      "order_region_order_share",
+      "shipping_mode_order_share",
+      "category_order_share",
+      "department_order_share",
+      "region_avg_scheduled_days",
+      "mode_avg_scheduled_days",
+      "order_complexity_score",
+      "regional_congestion_score"
+    ],
+    "one_hot_levels": {
+      "type": [
+        "DEBIT",
+        "TRANSFER",
+        "PAYMENT",
+        "CASH"
+      ],
+      "category_name": [
+        "Cleats",
+        "Men's Footwear",
+        "Women's Apparel",
+        "Indoor/Outdoor Games",
+        "Fishing",
+        "Water Sports",
+        "Camping & Hiking",
+        "Cardio Equipment",
+        "Shop By Sport",
+        "Electronics",
+        "Accessories",
+        "Golf Balls",
+        "Girls' Apparel",
+        "Golf Gloves",
+        "Trade-In",
+        "Video Games",
+        "Women's Clothing",
+        "Children's Clothing",
+        "Baseball & Softball",
+        "Hockey",
+        "Cameras",
+        "Golf Shoes",
+        "Toys",
+        "Crafts",
+        "Pet Supplies",
+        "DVDs",
+        "Garden",
+        "Music",
+        "Golf Apparel",
+        "Consumer Electronics"
+      ],
+      "customer_country": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "customer_segment": [
+        "Consumer",
+        "Corporate",
+        "Home Office"
+      ],
+      "customer_state": [
+        "PR",
+        "CA",
+        "NY",
+        "TX",
+        "IL",
+        "FL",
+        "OH",
+        "PA",
+        "MI",
+        "NJ",
+        "AZ",
+        "GA",
+        "MD",
+        "NC",
+        "CO",
+        "VA",
+        "OR",
+        "MA",
+        "TN",
+        "NV",
+        "MO",
+        "HI",
+        "CT",
+        "UT",
+        "LA",
+        "NM",
+        "WA",
+        "WI",
+        "SC",
+        "MN"
+      ],
+      "department_name": [
+        "Fan Shop",
+        "Apparel",
+        "Golf",
+        "Footwear",
+        "Outdoors",
+        "Fitness",
+        "Discs Shop",
+        "Technology",
+        "Pet Shop",
+        "Book Shop",
+        "Health and Beauty"
+      ],
+      "market": [
+        "LATAM",
+        "Europe",
+        "Pacific Asia",
+        "USCA",
+        "Africa"
+      ],
+      "order_country": [
+        "Estados Unidos",
+        "M\u00e9xico",
+        "Francia",
+        "Alemania",
+        "Australia",
+        "Brasil",
+        "Reino Unido",
+        "China",
+        "Italia",
+        "India",
+        "Indonesia",
+        "Espa\u00f1a",
+        "Rep\u00fablica Dominicana",
+        "El Salvador",
+        "Cuba",
+        "Honduras",
+        "Turqu\u00eda",
+        "Nicaragua",
+        "Guatemala",
+        "Nigeria",
+        "Filipinas",
+        "Argentina",
+        "Panam\u00e1",
+        "Pa\u00edses Bajos",
+        "Colombia",
+        "Nueva Zelanda",
+        "Ir\u00e1n",
+        "Austria",
+        "Egipto",
+        "Marruecos"
+      ],
+      "order_region": [
+        "Central America",
+        "Western Europe",
+        "South America",
+        "Oceania",
+        "Northern Europe",
+        "Southeast Asia",
+        "Southern Europe",
+        "Caribbean",
+        "West of USA",
+        "South Asia",
+        "Eastern Asia",
+        "East of USA",
+        "West Asia",
+        "US Center",
+        "South of USA",
+        "Eastern Europe",
+        "West Africa",
+        "North Africa",
+        "East Africa",
+        "Central Africa",
+        "Southern Africa",
+        "Canada",
+        "Central Asia"
+      ],
+      "order_status": [
+        "COMPLETE",
+        "PENDING_PAYMENT",
+        "PROCESSING",
+        "PENDING",
+        "CLOSED",
+        "ON_HOLD",
+        "SUSPECTED_FRAUD",
+        "CANCELED",
+        "PAYMENT_REVIEW"
+      ],
+      "shipping_mode": [
+        "Standard Class",
+        "Second Class",
+        "First Class",
+        "Same Day"
+      ]
+    },
+    "one_hot_has_other": {
+      "type": false,
+      "category_name": true,
+      "customer_country": false,
+      "customer_segment": false,
+      "customer_state": true,
+      "department_name": false,
+      "market": false,
+      "order_country": true,
+      "order_region": false,
+      "order_status": false,
+      "shipping_mode": false
+    },
+    "frequency_columns": [
+      "customer_city",
+      "order_city",
+      "order_state",
+      "product_name"
+    ],
+    "feature_count": 194
+  },
+  "artifacts": {
+    "scored_test_rows": "outputs\\late_delivery_model\\scored_test_rows.csv",
+    "late_risk_segment_summary": "outputs\\late_delivery_model\\late_risk_segment_summary.csv",
+    "late_risk_view": "outputs\\late_delivery_model\\late_risk_view.md"
+  }
+}
